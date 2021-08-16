@@ -1,0 +1,132 @@
+/* Base */
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --gray-color:#74747c;
+    --c1:#7248b9;
+    --c2:#eca30f;
+    --c3:#C12020;
+}
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; }
+  
+  html {
+    font-size: 62.5%;
+  }
+  html, body {
+    position: relative;
+    height: 100%;
+  }
+  
+  
+  body {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    background-color:#f3f2ef;
+    font-family: 'Changa', sans-serif;
+    /* background-color: #f6f6f6; */
+  }
+  
+  /*body::-webkit-scrollbar { width: 0 !important }*/
+  
+  ul, li{
+    margin: 0;
+  }
+  /* body::-webkit-scrollbar { width: 0 !important } */
+  
+  ul li{
+    list-style: none;
+  }
+  
+  ul li a:hover, a:hover{
+    text-decoration: none;
+  }
+  
+  .font-b{
+    font-weight: bold;
+  }
+  
+  button:focus, input:focus, select:focus{
+    outline: none;
+  }
+  
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  /* Navbar */
+
+  .navbar-content{
+    padding: 2rem 3rem;
+    background-color: transparent!important;
+    top: fixed;
+  }
+
+.navbar-content-logo{
+  width: 6rem;
+  height: 6rem;
+}
+
+.navbar-content-logo img{
+  width: 100%;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.nav-item{
+  padding: 0 1.4rem;
+}
+
+/* header */
+
+.header{
+  width: 100%;
+  height: 80vh;
+  background-color: black;
+}
+
+.carousel-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+.carousel-description h1{
+  font-size: 12rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.carousel-description h5{
+  font-size: 7rem;
+  margin-bottom: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+
+
+
+.solid{   
+  background-color: #a59fa4;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
